@@ -1,13 +1,15 @@
-import Nav from "./components/Nav";
+import React from "react";
+import NavBar from "./components/Nav";
 
 
 
 const App = () => {
   return (
     <>
-      <Nav />
+      <NavBar />
     </>
   );
+  
 }
 
 export default App;
